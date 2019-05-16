@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>propagate_comments_from_child_to_parent</internal_name>
+        <label_cache>[{"name":"Updated_1.current.comments_and_work_notes","label":"Trigger➛Task Record➛Comments and Work notes","reference":"","reference_display":"Comments and Work notes","type":"journal_list","base_type":"journal_list","parent_table_name":"task","column_name":"comments_and_work_notes"},{"name":"Updated_1.current.parent","label":"Trigger➛Task Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"parent"},{"name":"579a6dfb-fedc-4976-88b2-3464e6f3f7c7.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"579a6dfb-fedc-4976-88b2-3464e6f3f7c7.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Propagate comments from child to parent</name>
+        <outputs/>
+        <parent_flow display_value="Propagate comments from child to parent">de71cac0dbe13700846ab12c4e961994</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>mike.buckner</sys_created_by>
+        <sys_created_on>2019-05-16 13:51:53</sys_created_on>
+        <sys_id>6f820644dbe13700846ab12c4e9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Propagate comments from child to parent</sys_name>
+        <sys_package display_value="Child Task CSM Flow" source="x_snc_child_task_c">a75106c0dbe13700846ab12c4e9619de</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Child Task CSM Flow">a75106c0dbe13700846ab12c4e9619de</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_6f820644dbe13700846ab12c4e9619eb</sys_update_name>
+        <sys_updated_by>mike.buckner</sys_updated_by>
+        <sys_updated_on>2019-05-16 13:51:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f820644dbe13700846ab12c4e9619eb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6f820644dbe13700846ab12c4e9619eb"/>
+</record_update>
